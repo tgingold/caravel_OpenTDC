@@ -1,0 +1,3 @@
+[submodule "third_parties/OpenTDC"]
+	path = third_parties/OpenTDC
+	url = https://github.com/tgingold/OpenTDC.git
