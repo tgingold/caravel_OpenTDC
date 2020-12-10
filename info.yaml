@@ -1,18 +1,17 @@
---- 
-project: 
-  description: "A template SoC for Google sponsored Open MPW shuttles for SKY130."
+---
+project:
+  description: "Time to Data Converter with Fine Delay"
   foundry: "SkyWater"
-  git_url: "https://github.com/efabless/caravel.git"
-  organization: "Efabless"
-  organization_url: "http://efabless.com"
-  owner: "Tim Edwards"
+  git_url: "https://github.com/tgingold/OpenTDC.git"
+  organization: "N/A"
+  organization_url: "N/A"
+  owner: "Tristan Gingold"
   process: "SKY130"
-  project_name: "Caravel"
-  tags: 
+  project_name: "OpenTDC"
+  tags:
     - "Open MPW"
-    - "Test Harness"
-  category: "Test Harness"
+  category: "Sensor"
   top_level_netlist: "verilog/gl/caravel.v"
   user_level_netlist: "verilog/gl/user_project_wrapper.v"
-  version: "1.00"
-  cover_image: "doc/ciic_harness.png"
+  version: "0.1"
+  cover_image: ""

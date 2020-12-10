@@ -1,3 +1,13 @@
+# IMPORTANT: OpenTDC implementation
+
+This is the result of OpenTDC hardening in caravel.  As
+[caravel](https://github.com/efabless/caravel) changes, only the
+result of the hardening is added in this repository (as well as the
+OpenTDC submodule).
+
+For OpenTDC sources and README, go to the
+[OpenTDC](https://github.com/tgingold/OpenTDC) page.
+
 # CIIC Harness  
 
 A template SoC for Google SKY130 free shuttles. It is still WIP. The current SoC architecture is given below.
