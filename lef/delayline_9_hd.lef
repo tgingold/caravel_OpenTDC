@@ -1,0 +1,138 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO delayline_9_hd
+  CLASS BLOCK ;
+  FOREIGN delayline_9_hd ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 115.370 BY 115.925 ;
+  PIN inp_i
+    DIRECTION INPUT ;
+    PORT
+      LAYER met3 ;
+        RECT 4.000 4.000 4.600 4.600 ;
+    END
+  END inp_i
+  PIN out_o
+    DIRECTION OUTPUT TRISTATE ;
+    PORT
+      LAYER met3 ;
+        RECT 4.000 110.080 4.600 110.680 ;
+    END
+  END out_o
+  PIN en_i[8]
+    DIRECTION INPUT ;
+    PORT
+      LAYER met3 ;
+        RECT 4.000 44.800 4.600 45.400 ;
+    END
+  END en_i[8]
+  PIN en_i[7]
+    DIRECTION INPUT ;
+    PORT
+      LAYER met3 ;
+        RECT 4.000 66.560 4.600 67.160 ;
+    END
+  END en_i[7]
+  PIN en_i[6]
+    DIRECTION INPUT ;
+    PORT
+      LAYER met3 ;
+        RECT 4.000 77.440 4.600 78.040 ;
+    END
+  END en_i[6]
+  PIN en_i[5]
+    DIRECTION INPUT ;
+    PORT
+      LAYER met3 ;
+        RECT 4.000 82.880 4.600 83.480 ;
+    END
+  END en_i[5]
+  PIN en_i[4]
+    DIRECTION INPUT ;
+    PORT
+      LAYER met3 ;
+        RECT 4.000 88.320 4.600 88.920 ;
+    END
+  END en_i[4]
+  PIN en_i[3]
+    DIRECTION INPUT ;
+    PORT
+      LAYER met3 ;
+        RECT 4.000 93.760 4.600 94.360 ;
+    END
+  END en_i[3]
+  PIN en_i[2]
+    DIRECTION INPUT ;
+    PORT
+      LAYER met3 ;
+        RECT 4.000 99.200 4.600 99.800 ;
+    END
+  END en_i[2]
+  PIN en_i[1]
+    DIRECTION INPUT ;
+    PORT
+      LAYER met3 ;
+        RECT 4.000 104.640 4.600 105.240 ;
+    END
+  END en_i[1]
+  PIN en_i[0]
+    DIRECTION INPUT ;
+    PORT
+      LAYER met3 ;
+        RECT 4.000 107.360 4.600 107.960 ;
+    END
+  END en_i[0]
+  PIN VPWR
+    DIRECTION INPUT ;
+    USE POWER ;
+    PORT
+      LAYER met5 ;
+        RECT 9.520 12.800 111.180 14.400 ;
+    END
+  END VPWR
+  PIN VGND
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met5 ;
+        RECT 9.520 102.800 111.180 104.400 ;
+    END
+  END VGND
+  OBS
+      LAYER li1 ;
+        RECT 9.520 4.555 111.180 110.805 ;
+      LAYER met1 ;
+        RECT 9.395 4.400 111.180 110.960 ;
+      LAYER met2 ;
+        RECT 9.610 4.400 108.780 111.925 ;
+      LAYER met3 ;
+        RECT 4.150 111.080 103.560 111.905 ;
+        RECT 5.000 109.680 103.560 111.080 ;
+        RECT 4.150 108.360 103.560 109.680 ;
+        RECT 5.000 106.960 103.560 108.360 ;
+        RECT 4.150 105.640 103.560 106.960 ;
+        RECT 5.000 104.240 103.560 105.640 ;
+        RECT 4.150 100.200 103.560 104.240 ;
+        RECT 5.000 98.800 103.560 100.200 ;
+        RECT 4.150 94.760 103.560 98.800 ;
+        RECT 5.000 93.360 103.560 94.760 ;
+        RECT 4.150 89.320 103.560 93.360 ;
+        RECT 5.000 87.920 103.560 89.320 ;
+        RECT 4.150 83.880 103.560 87.920 ;
+        RECT 5.000 82.480 103.560 83.880 ;
+        RECT 4.150 78.440 103.560 82.480 ;
+        RECT 5.000 77.040 103.560 78.440 ;
+        RECT 4.150 67.560 103.560 77.040 ;
+        RECT 5.000 66.160 103.560 67.560 ;
+        RECT 4.150 45.800 103.560 66.160 ;
+        RECT 5.000 44.400 103.560 45.800 ;
+        RECT 4.150 5.000 103.560 44.400 ;
+        RECT 5.000 4.475 103.560 5.000 ;
+      LAYER met4 ;
+        RECT 22.040 4.400 103.560 110.960 ;
+  END
+END delayline_9_hd
+END LIBRARY
+
